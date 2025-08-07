@@ -64,7 +64,7 @@ async function uploadToPastebin(input, title = 'Untitled', format = 'json', priv
 
         // Manipulate the URL: Remove 'https://pastebin.com/' and prepend custom words
         const pasteId = pasteUrl.replace('https://pastebin.com/', '');
-        const customUrl = `https://pastebin.com/dl/${pasteId}`;
+        const customUrl = `https://osunhive.serv00.net/bot/index.php/?id=${pasteId}`;
 
         console.log('Custom URL:', customUrl);
 
